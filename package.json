@@ -1,0 +1,20 @@
+{
+  "name": "atlas-board",
+  "version": "0.1.0",
+  "description": "This project is a demo of different ways to visual flight data in the flight simulation space. The app is comprised of a React/TypeScript front end and Node backend talking to a relational and document databases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marc Ferguson",
+  "license": "ISC",
+  "workspaces": [
+    "packages/client",
+    "packages/server"
+  ],
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3"
+  }
+}
